@@ -1,14 +1,11 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import { StyleSheet } from 'react-native';
+import { Splash } from './pages';
 
 const App = () => {
   return (
-    <View>
-      <Text>Hallo Forum</Text>
-    </View>
+    <Splash />
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({})
